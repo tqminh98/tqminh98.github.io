@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face
+{
+	font-family: futuramore;
+	src: url("../fonts/Futura Round Demi Oblique.ttf")
+}
+
+@font-face
+{
+	font-family: futuraregular;
+	src:url("../fonts/Futura Round.ttf")
+}
+
+@font-face
+{
+	font-family: futurademi;
+	src:url("../fonts/Futura Round Demi.ttf")
+}
+
+@font-face
+{
+	font-family: futuramedium;
+	src:url("../fonts/Futura Round Medium.ttf")
+}
+
+@font-face
+{
+	font-family: futuralight;
+	src:url("../fonts/Futura Round Light.ttf")
+}
+
+@font-face
+{
+	font-family: futurabold;
+	src:url("../fonts/Futura Round Bold.ttf")
+}
+
+.container
+{
+	
+	height: auto;
+	background-color: black;
+	margin: auto;
+}
+
+.logo
+{
+	
+	height: 143px;
+	background-color: none;
+}
+
+
+
+.nen1
+{
+	height: 50px;
+	background-color: none;
+}
+
+.all
+{
+	height: auto;
+	margin: 0px 75px 0px 75px;
+}
+.name
+{
+	height: auto; 
+	background-color: none;
+	position: relative;
+	z-index: 0;
+}
+.namekhung
+{
+	height: 50px;
+	background-color: none;
+	margin: 10px 0px 0px 0px;
+	z-index: 50;
+	border: 1px #FFFFFF solid;
+}
+
+.dateofbirth
+{
+	height: auto; 
+	background-color: none;
+	position: relative;
+	z-index: 0;
+	margin: 30px 0px 0px 0px;
+}
+
+.dateofbirthkhung
+{
+	height: 50px;
+	background-color: none;
+	margin: 10px 0px 0px 0px;
+	z-index: 50;
+	border: 1px #FFFFFF solid;
+}
+
+.email
+{
+	height: auto; 
+	background-color: none;
+	position: relative;
+	z-index: 0;
+	margin: 30px 0px 0px 0px;
+}
+
+.emailkhung
+{
+	height: 50px;
+	background-color: none;
+	margin: 10px 0px 0px 0px;
+	z-index: 50;
+	border: 1px #FFFFFF solid;
+}
+
+.pass
+{
+	height: auto; 
+	background-color: none;
+	position: relative;
+	z-index: 0;
+	margin: 30px 0px 0px 0px;
+}
+
+.passkhung
+{
+	height: 50px;
+	background-color: none;
+	margin: 10px 0px 0px 0px;
+	z-index: 50;
+	border: 1px #FFFFFF solid;
+}
+
+.username
+{
+	height: auto; 
+	background-color: none;
+	position: relative;
+	z-index: 0;
+	margin: 30px 0px 0px 0px;
+}
+
+.usernamekhung
+{
+	height: 50px;
+	background-color: none;
+	margin: 10px 0px 0px 0px;
+	z-index: 50;
+	border: 1px #FFFFFF solid;
+}
+
+.button
+{
+	width: 150px;
+	height: 50px;
+	background-color: white;
+	z-index: 100;
+	float: left;
+	margin: 60px 0px 0px 400px; 
+
+}
+
+.button ul
+{
+	list-style: none;
+}
+
+.button ul li
+{
+	float: left;
+	margin: 13px 0px 0px 35px;
+	font-family: futurabold;
+}
+
+.button ul li a
+{
+	text-decoration: none;
+	color: black;	
+}
+
+.button ul li a:hover
+{
+	color: #C9C9C9;
+}
+
+.footer
+{
+	height: 195.76px;
+	background-color: none;
+	margin: 30px 0px 0px 0px;
+}
+.info
+{
+	
+	height: 150px;
+	background-color: none;
+	font-family: futurademi;
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+}
+.info ul
+{
+	list-style: none;
+}
+.info ul li
+{
+	margin: 15px 0px 0px 0px; 
+}
+.info ul li a
+{
+	text-decoration: none;
+	color:#C9C9C9;
+	font-family: futuraregular;
+}
+.info ul li a:hover
+{
+	text-decoration:overline;
+	color: white;
+}
+.product
+{
+	
+	height: 150px;
+	background-color:none;
+	text-align: center;
+	font-family: futurademi;
+	margin: 20px 0px 0px 0px;
+}
+.product ul
+{
+	list-style: none;
+}
+.product ul li
+{
+	margin: 15px 0px 0px 0px;
+}
+.product ul li a
+{
+	text-decoration: none;
+	font-family: futuraregular;
+	color:#C9C9C9 ;
+	font-size: 20px;
+	
+}
+.product ul li a:hover
+{
+	text-decoration:overline;
+	color: white;
+}
+.contact
+{
+	
+	height: 150px;
+	background-color: none;
+	text-align: center;
+	font-family: futurademi;
+	margin: 20px 0px 0px 0px;
+}
+.contacticon
+{
+	
+	display: flex ;
+    justify-content: center;
+	margin: 15px 0px 0px 0px;
+	
+}
+.contacticon ul 
+{
+	list-style: none;
+	
+}
+.contacticon ul li
+{
+	float: right;
+	padding: 0px 20px 20px 20px;
+	
+	
+}
+.contacticon ul li a
+{
+	text-decoration: none;
+}
+
+.end
+{
+	
+	height: 30px;
+	background-color: none;
+	margin: 50px 0px 0px 0px;
+	font-family: futuralight;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

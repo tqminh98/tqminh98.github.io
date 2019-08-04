@@ -1,0 +1,436 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face
+{
+	font-family: futuramore;
+	src: url("../fonts/Futura Round Demi Oblique.ttf")
+}
+
+@font-face
+{
+	font-family: futuraregular;
+	src:url("../fonts/Futura Round.ttf")
+}
+
+@font-face
+{
+	font-family: futurademi;
+	src:url("../fonts/Futura Round Demi.ttf")
+}
+
+@font-face
+{
+	font-family: futuramedium;
+	src:url("../fonts/Futura Round Medium.ttf")
+}
+
+@font-face
+{
+	font-family: futuralight;
+	src:url("../fonts/Futura Round Light.ttf")
+}
+
+@font-face
+{
+	font-family: futurabold;
+	src:url("../fonts/Futura Round Bold.ttf")
+}
+
+@font-face
+{
+	font-family: futuralightOblique;
+	src:
+}
+
+.background
+{
+	width: 1920px;
+	height: 1310px;
+	background-color:black;
+}
+.outer
+{
+	width: 1280px;
+	height: 1310px;
+	background-color: black;
+	margin: auto;
+}
+
+.logo
+{
+	width: 1280px;
+	height: 143px;
+	background-color: none;
+}
+
+/* Style the header */
+.header
+{
+	width: 1280px;
+	height: 60px;
+	background-color: black;
+	position: absolute;
+	z-index: 100;
+	opacity: 0.7;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+.thanhngangmenu1
+{
+	width: 1280px;
+	height: 3px;
+	background-color: #737373;
+	float: left;
+	margin-top: 0px;
+}
+
+.menu
+{
+	width: 1280px;
+	height: 59px;
+	background-color: none;
+}
+
+.menuleft
+{
+	width: 860px;
+	height: 54px;
+	float: left;
+	background-color: none;
+}
+
+.menuleft ul 
+{
+	list-style: none;
+}
+
+.menuleft ul li 
+{
+	float: left;
+	margin: 12px 30px 0px 30px;
+}
+.menuleft ul li a
+{ 
+	text-decoration: none;
+	font-family: futuralight;
+	color: white;
+	font-size: 25px;
+}
+
+.menuleft ul li a:hover
+{ 
+	text-decoration:overline;
+	color: white;
+}
+.menuleftbestsellerbooks
+{
+	color:#000000;
+	font-family: futurabold;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+.menuleft ul li:hover
+{
+	background-color: none;
+}
+.menuleft ul li ul
+{
+	width: 953px;
+	height: 110px;
+	position:absolute;
+	background-color: #C9C9C9;
+	margin: 10px 0px 0px -10px;
+}
+.menuleft ul li ul
+{
+	visibility: hidden;
+}
+.menuleft ul li:hover ul
+{
+	visibility: visible;
+}
+.menuleft ul li ul li
+{
+	margin: 0px 60px 0px 40px;
+}
+.menuleft ul li ul li a
+{
+	color:#000000;
+	font-family: futuralight;
+}
+.menuleft ul li ul li a:hover
+{
+	text-decoration: none;
+}
+.menuleftbestsellerbooks
+{
+	width: 825px;
+	height: auto;
+}
+.menuleftbooks
+{
+	width: 825px;
+	height: auto;
+	font-family: futurabold;
+	text-decoration:underline;
+	margin-top: 10px;
+}
+
+.thanhdocmenu
+{
+	width: 3px;
+	height: 57px;
+	background-color: #737373;
+	float: left;
+	margin-top: 0px;
+}
+.menuright
+{
+	width: 400px;
+	height: 54px;
+	background-color: none;
+	float: right;
+}
+.menuright ul 
+{
+	list-style: none;
+}
+.menuright ul li
+{
+	float: right;
+	margin: 10px 70px 0px 10px;
+}
+.menuright ul li a
+{
+	text-decoration: none;
+}
+.thanhngangmenu2
+{
+	width: 1280px;
+	height: 3px;
+	background-color: #737373;
+	float: left;
+	margin-top: 0px;
+}
+
+.nen
+{
+	width: 1280px;
+	height: 903px;
+	background-color: none;
+}
+
+.nen1
+{
+	width: 1280px;
+	height: 70px;
+	background-color: aqua;
+}
+
+.aboutomegabook
+{
+	height: 50px;
+	font-family: futurabold;
+	font-size: 30px;
+	color: #C9C9C9;
+	margin: 10px 0px 0px 30px;
+}
+
+.founder
+{
+	width: 540px;
+	height: 300px;
+	background-color: blue;
+	float: left;
+	font-family: futuralight;
+	font-size: 20px;
+	color: #C9C9C9;
+}
+
+.founderimg
+{
+	width: 440px;
+	height: 300px;
+	background-color: blueviolet;
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.about
+{
+	width: 1280px;
+	height: 491px;
+	background-color: brown;
+}
+
+.footer
+{
+	width: 1280px;
+	height: 195.76px;
+	background-color: none;
+}
+.info
+{
+	width: 462px;
+	height: 150px;
+	background-color: none;
+	float: left;
+	font-family: futurademi;
+	margin: 20px 0px 0px 0px;
+}
+.info ul
+{
+	list-style: none;
+}
+.info ul li
+{
+	margin: 10px 0px 0px 160px; 
+}
+.info ul li a
+{
+	text-decoration: none;
+	color:#C9C9C9;
+	font-family: futuramedium;
+}
+.info ul li a:hover
+{
+	text-decoration:overline;
+	color: white;
+}
+.product
+{
+	width: 300px;
+	height: 150px;
+	background-color:none;
+	float: left;
+	font-family: futurademi;
+	margin: 20px 0px 0px 0px;
+}
+.product ul
+{
+	list-style: none;
+}
+.product ul li
+{
+	margin: 10px 0px 0px 50px; 
+}
+.product ul li a
+{
+	text-decoration: none;
+	font-family: futuramedium;
+	color:#C9C9C9 ;
+}
+.product ul li a:hover
+{
+	text-decoration:overline;
+	color: white;
+}
+.contact
+{
+	width: 518px;
+	height: 150px;
+	background-color: none;
+	float: right;
+	font-family: futurademi;
+	margin: 20px 0px 0px 0px;
+}
+.contacticon
+{
+	float: right;
+}
+.contacticon ul 
+{
+	list-style: none;
+}
+.contacticon ul li
+{
+	float: right;
+	margin: 20px 150px 0px -100px;
+}
+.contacticon ul li a
+{
+	text-decoration: none;
+}
+.thanhdoc
+{
+	width: 1280px;
+	height: 3px;
+	background-color: #737373;
+	float: left;
+	margin-top: 20px;
+}
+.end
+{
+	width: 1280px;
+	height: 30px;
+	background-color: none;
+	font-family: futuralight;
+	margin: 30px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

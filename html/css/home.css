@@ -1,0 +1,624 @@
+@charset "utf-8";
+/* CSS Document */
+.background
+{
+	width: 1920px;
+	height: 3180px;
+	background-color:black;
+}
+.outer
+{
+	width: 1280px;
+	height: 3180px;
+	background-color: black;
+	margin: auto;
+}
+
+.logo
+{
+	width: 1280px;
+	height: 143px;
+	background-color: none;
+}
+.thanhngangmenu1
+{
+	width: 1280px;
+	height: 3px;
+	background-color: #737373;
+	float: left;
+	margin-top: 0px;
+}
+
+@font-face
+{
+	font-family: manh;
+	src:url(../fonts/BirchStd.otf)
+}
+
+.menu
+{
+	width: 1280px;
+	height: 54px;
+	background-color: none;
+}
+
+.menuleft
+{
+	width: 860px;
+	height: 54px;
+	float: left;
+	background-color: none;
+}
+
+.menuleft ul 
+{
+	list-style: none;
+}
+
+.menuleft ul li 
+{
+	float: left;
+	margin: 12px 30px 0px 60px;
+}
+.menuleft ul li a
+{ 
+	text-decoration: none;
+	font-family: manh;
+	color: #D5C7AC;
+	font-size: 25px;
+}
+
+.menuleft ul li a:hover
+{ 
+	text-decoration:overline;
+	color: white;
+}
+.menuleftbestsellerbooks
+{
+	color: #1A2E3A;
+	font-family: garamondregular;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+.menuleft ul li:hover
+{
+	background-color: none;
+}
+.menuleft ul li ul
+{
+	width: 935px;
+	position:absolute;
+	background-color: #D5C7AC;
+	margin: 10px 0px 0px -10px;
+}
+.menuleft ul li ul
+{
+	visibility: hidden;
+}
+.menuleft ul li:hover ul
+{
+	visibility: visible;
+}
+.menuleft ul li ul li
+{
+	margin: 0px 50px 0px 40px;
+}
+.menuleft ul li ul li a
+{
+	color: #1A2E3A;
+	font-family: garamondregular;
+}
+.menuleft ul li ul li a:hover
+{
+	text-decoration: none;
+}
+.menuleftbestsellerbooks
+{
+	width: 825px;
+	height: auto;
+}
+.menuleftbooks
+{
+	width: 825px;
+	height: auto;
+	font-family: garamondregular;
+	text-decoration:underline;
+	margin-top: 10px;
+}
+
+.thanhdocmenu
+{
+	width: 3px;
+	height: 55px;
+	background-color: #737373;
+	float: left;
+	margin-top: 0px;
+}
+.menuright
+{
+	width: 400px;
+	height: 54px;
+	background-color: none;
+	float: right;
+}
+.menuright ul 
+{
+	list-style: none;
+}
+.menuright ul li
+{
+	float: right;
+	margin: 10px 70px 0px 10px;
+}
+.menuright ul li a
+{
+	text-decoration: none;
+}
+.thanhngangmenu2
+{
+	width: 1280px;
+	height: 3px;
+	background-color: #737373;
+	float: left;
+	margin-top: 0px;
+}
+.slider
+{
+	width: 1280px;
+	height: 750px;
+	background-color: none;
+}
+
+.about
+{
+	width: 1280px;
+	height: 364.6px;
+	background-color: #D5C7AC;
+}
+@font-face
+{
+	font-family: garamondbold;
+	src: url(../fonts/GaramondPremrPro-BdCapt.otf)
+}
+.aboutleft
+{
+	width: 460px;
+	height: 255px;
+	float: left;
+	background-color: none;
+	font-family: garamondbold;
+	margin: 110px 0px 0px 0px;
+}
+
+.thanhdoc1
+{
+	width: 2px;
+	height: 250px;
+	background-color: #1A2E3A;
+	float: left;
+	margin-top: 60px;
+}
+
+@font-face
+{
+	font-family: garamondregular;
+	src: url(../fonts/GaramondPremrPro-Capt.otf)
+}
+.aboutright
+{
+	width: 800px;
+	height: 364.6px;
+	float: right;
+	background-color: none;
+	font-family: garamondregular;
+	padding: 90px 50px 0px 50px;
+}
+
+.button1
+{
+	background-color: none;
+}
+.button1 ul
+{
+	list-style: none;
+}
+.button1 ul li
+{
+	float: left;
+	margin: 0px 0px 0px 500px;
+}
+.button1 ul li a
+{
+	font-family: garamondregular;
+	color: #1A2E3A;
+}
+.button1 ul li a:hover
+{
+	color: white;
+	text-decoration:overline;
+}
+.clear
+{
+	clear: both;
+}
+
+.products
+{
+	width: 1280px;
+	height: 609px;
+	background-color: none;
+	position: relative;
+	z-index: 0;
+}
+
+.productsbestseller
+{
+	width: 361.68px;
+	height: 499.56px;
+	background-color: #D5C7AC;
+	float: left;
+	z-index: 50;
+	position: absolute;
+	top: 60px;
+	left: 450px;
+}
+.productsbestsellerborder
+{
+	width: 331.99px;
+	height: 471.24px;
+	background-color: none;
+	border: 4px #1A2E3A solid;
+	float: left;
+	z-index: 100;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.productsbestsellertext
+{
+	font-family: garamondregular;
+	color:#1A2E3A;
+	text-decoration: underline;
+	margin: 20px 0px 0px 20px;
+}
+.button2a
+{
+	background-color: none;
+}
+
+.button2a ul
+{
+	list-style: none;
+}
+.button2a ul li
+{
+	float: left;
+	margin: 20px 0px 0px 250px;
+}
+.button2a ul li a
+{
+	font-family: garamondregular;
+	color: #1A2E3A;
+}
+.button2a ul li a:hover
+{
+	color: white;
+	text-decoration:overline;
+}
+.productsbooks
+{
+	width: 361.68px;
+	height: 499.56px;
+	background-color: #D5C7AC;
+	float: left;
+	z-index: 50;
+	position: absolute;
+	top: 60px;
+	left: 870px;
+}
+.productsbooksborder
+{
+	width: 331.99px;
+	height: 471.24px;
+	background-color:none;
+	border: 4px #1A2E3A solid;
+	float: left;
+	z-index: 100;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.productsimg
+{
+	margin: 20px 0px 0px 60px;
+	box-shadow: 10px 0px 10px 0px grey;
+	width: 206.34px;
+	height: 313.82px;
+	transition: all 10s linear;
+}
+.productsimg:hover img
+{
+	transform: scale(1.05);
+}
+.button2b
+{
+	background-color: none;
+}
+
+.button2b ul
+{
+	list-style: none;
+}
+.button2b ul li
+{
+	float: left;
+	margin: 20px 0px 0px 250px;
+}
+.button2b ul li a
+{
+	font-family: garamondregular;
+	color: #1A2E3A;
+}
+.button2b ul li a:hover
+{
+	color: white;
+	text-decoration:overline;
+}
+.sales
+{
+	width: 1280px;
+	height: 554px;
+	background-color: #D5C7AC;
+}
+
+.saleleft
+{
+	width: 500px;
+	height: 200px;
+	float: left;
+	background-color: none;
+	font-family: garamondregular;
+	margin: 190px 10px 0px 200px;
+}
+
+.button3
+{
+	background-color: none;
+}
+
+.button3 ul
+{
+	list-style: none;
+}
+.button3 ul li
+{
+	float: left;
+	margin: 0px 0px 0px 260px;
+}
+.button3 ul li a
+{
+	font-family: garamondregular;
+	color: #1A2E3A;
+}
+.button3 ul li a:hover
+{
+	color: white;
+	text-decoration:overline;
+}
+.thanhdoc2
+{
+	width: 2px;
+	height: 250px;
+	background-color: #1A2E3A;
+	float: left;
+	margin-top: 150px;
+}
+.saleright
+{
+	width: 270px;
+	height: 474px;
+	float: right;
+	background-color: white;
+	margin: 40px 200px 0px 0px;
+}
+.salesimg
+{
+	width: 270px;
+	height: 474px;
+	box-shadow: 10px 0px 10px 0px grey;
+	transition: all 10s linear;
+}
+.salesimg:hover img
+{
+	transform: scale(1.05);
+}
+
+.morethan
+{
+	font-family: garamondregular;
+	margin-top: 20px;
+	background-color: none;
+}
+
+.customercmt
+{
+	width: 1280px;
+	height: 350px;
+	background-color: none;
+}
+.customercmtleft
+{
+	width: 1280px;
+	height: 246px;
+	background-color: none;
+	float: left;
+	margin: 15px 0px 0px 0px;
+}
+
+.signin
+{
+	width: 1280px;
+	height: 40px;
+	background-color: none;
+}
+.signin ul
+{
+	list-style: none;
+}
+.signin ul li
+{
+	margin-top: 0px;
+}
+.signin ul li a
+{
+	color: #D5C7AC;
+	font-family: garamondregular;
+}
+.signin ul li a:hover
+{
+	color: white;
+	text-decoration:overline;
+}
+.footer
+{
+	width: 1280px;
+	height: 195.76px;
+	background-color: none;
+}
+.info
+{
+	width: 462px;
+	height: 150px;
+	background-color: none;
+	float: left;
+	font-family: garamondregular;
+	margin: 20px 0px 0px 0px;
+}
+.info ul
+{
+	list-style: none;
+}
+.info ul li
+{
+	margin: 10px 0px 0px 160px; 
+}
+.info ul li a
+{
+	text-decoration: none;
+	font-family: garamondregular;
+	color: #D5C7AC;
+}
+.info ul li a:hover
+{
+	text-decoration:overline;
+	color: white
+}
+.product
+{
+	width: 300px;
+	height: 150px;
+	background-color:none;
+	float: left;
+	font-family: garamondregular;
+	margin: 20px 0px 0px 0px;
+}
+.product ul
+{
+	list-style: none;
+}
+.product ul li
+{
+	margin: 10px 0px 0px 50px; 
+}
+.product ul li a
+{
+	text-decoration: none;
+	font-family: garamondregular;
+	color: #D5C7AC;
+}
+.product ul li a:hover
+{
+	text-decoration:overline;
+	color: white
+}
+.contact
+{
+	width: 518px;
+	height: 150px;
+	background-color: none;
+	float: right;
+	font-family: garamondregular;
+	margin: 20px 0px 0px 0px;
+}
+.contacticon
+{
+	float: right;
+}
+.contacticon ul 
+{
+	list-style: none;
+}
+.contacticon ul li
+{
+	float: right;
+	margin: 20px 150px 0px -100px;
+}
+.contacticon ul li a
+{
+	text-decoration: none;
+}
+.thanhdoc
+{
+	width: 1280px;
+	height: 3px;
+	background-color: #737373;
+	float: left;
+	margin-top: 20px;
+}
+.end
+{
+	width: 1280px;
+	height: 30px;
+	background-color: none;
+	font-family: garamondregular;
+	margin: 0px 0px 0px 0px;
+}
+.wow:first-child 
+{
+      visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

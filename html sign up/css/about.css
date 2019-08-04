@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face
+{
+	font-family: futuramore;
+	src: url("../fonts/Futura Round Demi Oblique.ttf")
+}
+
+@font-face
+{
+	font-family: futuraregular;
+	src:url("../fonts/Futura Round.ttf")
+}
+
+@font-face
+{
+	font-family: futurademi;
+	src:url("../fonts/Futura Round Demi.ttf")
+}
+
+@font-face
+{
+	font-family: futuramedium;
+	src:url("../fonts/Futura Round Medium.ttf")
+}
+
+@font-face
+{
+	font-family: futuralight;
+	src:url("../fonts/Futura Round Light.ttf")
+}
+
+@font-face
+{
+	font-family: futurabold;
+	src:url("../fonts/Futura Round Bold.ttf")
+}
+
+
+.container
+{
+	
+	height: auto;
+	background-color: black;
+	margin: auto;
+}
+
+.logo
+{
+	
+	height: 143px;
+	background-color: none;
+}
+
+
+
+.products
+{
+	height: auto;
+	background-color: none;
+	position: relative;
+	z-index: 0;
+}
+
+.bgkhung1
+{
+	display: flex;
+	justify-content: center;
+	background-color: none;
+}
+
+.bgkhung
+{
+	width: 500px;
+	height: 540px;
+	background-color: black;
+	z-index: 50;
+	position: absolute;
+	top: 100px;
+}
+ 
+.username
+{
+	margin: 50px 0px 0px 60px;
+}
+
+.button
+{
+	width: 265px;
+	height: 50px;
+	background-color: none;
+	z-index: 100;
+	float: left;
+	margin: 50px 0px 0px 110px;
+	border: 1px #FFFFFF solid; 
+
+}
+
+.button ul
+{
+	list-style: none;
+}
+
+.button ul li
+{
+	float: left;
+	margin: 10px 0px 0px 85px;
+	font-family: futurabold;
+	letter-spacing: 2px;
+}
+
+.button ul li a
+{
+	text-decoration: none;
+	color: white;	
+}
+
+.button ul li a:hover
+{
+	color: #C9C9C9;
+}
+
+.noaccount
+{
+	float: left;
+	margin: 50px 0px 0px 60px;
+	letter-spacing: 2px;
+}
+
+.getstart
+{
+	float: left;
+	margin:50px 0px 0px 10px;
+	letter-spacing: 2px;
+}
+
+.getstart ul
+{
+	list-style: none;
+}
+
+.getstart ul li
+{
+	font-family: futuralight;
+	font-size: 20px;
+}
+
+.getstart ul li a
+{
+	color: white;
+}
+
+.getstart ul li a:hover
+{
+	color: #C9C9C9
+}
+
+.forgot
+{
+	float: left;
+	margin:30px 0px 0px 150px;
+	letter-spacing: 4px;
+}
+
+.forgot ul
+{
+	list-style: none;
+}
+
+.forgot ul li
+{
+	font-family: futuralight;
+	font-size: 15px;
+}
+
+.forgot ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.forgot ul li a:hover
+{
+	color: #C9C9C9
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

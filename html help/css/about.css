@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face
+{
+	font-family: futuramore;
+	src: url("../fonts/Futura Round Demi Oblique.ttf")
+}
+
+@font-face
+{
+	font-family: futuraregular;
+	src:url("../fonts/Futura Round.ttf")
+}
+
+@font-face
+{
+	font-family: futurademi;
+	src:url("../fonts/Futura Round Demi.ttf")
+}
+
+@font-face
+{
+	font-family: futuramedium;
+	src:url("../fonts/Futura Round Medium.ttf")
+}
+
+@font-face
+{
+	font-family: futuralight;
+	src:url("../fonts/Futura Round Light.ttf")
+}
+
+@font-face
+{
+	font-family: futurabold;
+	src:url("../fonts/Futura Round Bold.ttf")
+}
+
+
+.container
+{
+	
+	height: auto;
+	background-color: black;
+	margin: auto;
+}
+
+.logo
+{
+	
+	height: 143px;
+	background-color: none;
+}
+
+
+
+
+.nen1
+{
+	height: 100px; 
+	background-color: none;
+}
+
+.bgkhung1
+{
+	height: 500px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.bgkhung
+{
+	width: 500px;
+	height:500px;
+	background-color:none;
+	z-index: 0;
+	border: 1px #C9C9C9 solid;
+}
+
+.username
+{
+	height: auto;
+	background-color: none;
+	z-index: 100;
+	float: left;
+	margin: 70px 0px 0px 120px;
+    font-family: futuraregular;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+
+.search
+{
+	width: 448px;
+	height: 63px;
+	background-color: white;
+	z-index: 100;
+	margin: 130px 0px 0px 25px;
+}
+
+.button
+{
+	width: 265px;
+	height: 50px;
+	background-color: none;
+	z-index: 100;
+	float: left;
+	margin: 50px 0px 0px 110px;
+	border: 1px #FFFFFF solid; 
+
+}
+
+.button ul
+{
+	list-style: none;
+}
+
+.button ul li
+{
+	float: left;
+	margin: 10px 0px 0px 75px;
+	font-family: futurabold;
+	letter-spacing: 2px;
+}
+
+.button ul li a
+{
+	text-decoration: none;
+	color: white;	
+}
+
+.button ul li a:hover
+{
+	color: #C9C9C9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face
+{
+	font-family: futuramore;
+	src: url("../fonts/Futura Round Demi Oblique.ttf")
+}
+
+@font-face
+{
+	font-family: futuraregular;
+	src:url("../fonts/Futura Round.ttf")
+}
+
+@font-face
+{
+	font-family: futurademi;
+	src:url("../fonts/Futura Round Demi.ttf")
+}
+
+@font-face
+{
+	font-family: futuramedium;
+	src:url("../fonts/Futura Round Medium.ttf")
+}
+
+@font-face
+{
+	font-family: futuralight;
+	src:url("../fonts/Futura Round Light.ttf")
+}
+
+@font-face
+{
+	font-family: futurabold;
+	src:url("../fonts/Futura Round Bold.ttf")
+}
+
+.background
+{
+	width: 1920px;
+	height: 1600px;
+	background-color:black;
+}
+.outer
+{
+	
+	height: auto;
+	background-color: black;
+	margin: auto;
+}
+
+.logo
+{
+	
+	height: 143px;
+	background-color: none;
+}
+
+
+
+
+.coverrow
+{
+	height: 137px;
+	background-color:#000000;
+	padding-top: 53px;
+	padding-left:  42px;
+	color: white;
+	font-family: futurabold
+	
+}
+
+
+.sale
+{
+	height: 360px;
+	background-color:#000000;
+	color: #C9C9C9;
+	margin: 0px 45px 0px 45px;
+}
+
+
+
+.product1
+{
+	height: 360px;
+	background-color:#000000;
+	
+	
+}
+
+.paddingtext1
+{
+	height: 10px;
+	background-color:#000000;
+	
+}
+
+.product2
+{
+	height: 360px;
+	background-color:#000000;
+}
+
+.paddingtext2
+{
+	height: 10px;
+	background-color:#000000;
+	
+}
+
+
+.product3
+{
+	height: 360px;
+	background-color:#000000;
+}
+
+
+.paddingtext3
+{
+	height: 10px;
+	background-color:#000000;
+	
+}
+
+.product4
+{
+	height: 360px;
+	background-color:#000000;
+}
+
+.paddingtext4
+{
+	height: 10px;
+	background-color:#000000;
+}
+
+.footer
+{
+	height: 195.76px;
+	background-color: none;
+}
+.info
+{
+	
+	height: 150px;
+	background-color: none;
+	font-family: futurademi;
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+}
+.info ul
+{
+	list-style: none;
+}
+.info ul li
+{
+	margin: 15px 0px 0px 0px; 
+}
+.info ul li a
+{
+	text-decoration: none;
+	color:#C9C9C9;
+	font-family: futuraregular;
+}
+.info ul li a:hover
+{
+	text-decoration:overline;
+	color: white;
+}
+.product
+{
+	
+	height: 150px;
+	background-color:none;
+	text-align: center;
+	font-family: futurademi;
+	margin: 20px 0px 0px 0px;
+}
+.product ul
+{
+	list-style: none;
+}
+.product ul li
+{
+	margin: 15px 0px 0px 0px;
+}
+.product ul li a
+{
+	text-decoration: none;
+	font-family: futuraregular;
+	color:#C9C9C9 ;
+	font-size: 20px;
+	
+}
+.product ul li a:hover
+{
+	text-decoration:overline;
+	color: white;
+}
+.contact
+{
+	
+	height: 150px;
+	background-color: none;
+	text-align: center;
+	font-family: futurademi;
+	margin: 20px 0px 0px 0px;
+}
+.contacticon
+{
+	
+	display: flex ;
+    justify-content: center;
+	margin: 15px 0px 0px 0px;
+	
+}
+.contacticon ul 
+{
+	list-style: none;
+	
+}
+.contacticon ul li
+{
+	float: right;
+	padding: 0px 20px 20px 20px;
+	
+	
+}
+.contacticon ul li a
+{
+	text-decoration: none;
+}
+
+.end
+{
+	
+	height: 30px;
+	background-color: none;
+	margin: 50px 0px 0px 0px;
+	font-family: futuralight;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
